@@ -28,9 +28,10 @@ gem 'rails', '3.0.11'
 # and rake tasks are available in development mode:
 group :development do
   gem 'sqlite3', '1.3.9' 
+  gem 'rspec-rails'
 end
 
 group :test do
-  #gem 'webrat'
-  #gem 'rspec'
+  gem 'webrat'
+  gem 'rspec'
 end
