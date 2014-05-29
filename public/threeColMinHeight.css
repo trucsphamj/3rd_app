@@ -1,0 +1,173 @@
+
+html{
+  height: 100%;
+}
+
+body{
+  background-image: url(images/bullet_flower.png);
+  background-repeat: repeat-z;
+}
+
+#head {
+  text-align: center;
+  color: #00FFFF;
+  border-bottom: 2px double gray;
+  
+  background-image: url(images/Leo1.png);
+  background-repeat: repeat-x;
+ 
+}
+
+#left {
+  float: left;
+  width: 20%;
+  min-height: 30em;
+  
+}
+
+#center {
+  float: left;
+  width: 60%;
+  padding-left: 1%;
+  padding-right: 1%;
+  min-height: 50em;
+  background-image: url(images/bg_body.png);
+  background-repeat: repeat-x;
+  background-color: #CDE6FF; 
+}
+
+#right {
+  float: left;
+  width: 17%;
+  padding-left: 1%;
+  min-height: 30em;
+ 
+}
+
+#footer {
+  border: 1px black solid;
+  float: left;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  
+  background-image: url(images/bg_body.png);
+  background-repeat: repeat-x;
+  background-color: #CDE6FF; 
+} 
+
+#articles{
+  border-bottom: 1px solid grey;
+}
+
+#mainphoto{
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #666;
+  width: 300px;
+  height: 250px;
+  margin-top: 10px;
+}
+
+.signature{
+ float: right;
+ margin-right: 20px;
+ font-family: Verdana, Helvetica, sans-serif;
+}
+
+#centercolumnname{
+  margin-left: 10%;
+
+}
+
+#hienlinhcorner{
+  border: 1px solid #CC3366;
+  margin-right: 10px;
+  margin-left: 8px;
+  border-radius: 8px;
+}
+
+#baihat{
+  margin-left: 10px;
+}
+
+#tencadoan{
+  margin-left: 20px;
+  color: #CC0000;
+ }
+ 
+.button{
+  background-color: #CDE6FF;
+  color: grey;
+  float: left;
+}
+
+.lastbutton{
+  background-color: #CDE6FF;
+  color: grey;
+}
+
+.linksbox{
+ 
+  border: 1px solid #CC3366;
+  float: left;
+  margin-top: 15px;
+  margin-left: 2.5%;
+  padding: 7px;
+  height: 250px;
+  width: 19.5%;
+  color: #CC0000;
+  font-size: 12px;
+  border-radius: 8px;
+  
+}
+
+
+h3.alphabet{
+ text-align: center;
+}
+
+#articleCenter{
+  float: left;
+  width: 60%;
+  padding-left: 1%;
+  padding-right: 1%;
+  min-height: 50em;
+  background-repeat: repeat-x;
+  background-image: url(images/bg_body.png);
+  background-color: #CDE6FF;
+}
+
+#personalInfoBox{
+  float: right;
+  color: #960000;
+  border-left: 1px solid grey;
+  padding: 5px;
+}
+
+.personalInfo{
+  float: right;
+ 
+}
+
+#pdf{
+  border-bottom: 1px solid grey;
+  padding-bottom: 15px;
+}
+
+#baiHatChuaNhatCorner{
+  border: 1px solid #CC3366;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+#leChuaNhat{
+  margin-left: 10px;
+  color: #CC0000;
+ }
+ 
+#baiHatChuaNhatCorner a{
+  margin-left: 5px;
+}
+
